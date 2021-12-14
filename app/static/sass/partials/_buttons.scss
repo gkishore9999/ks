@@ -1,0 +1,22 @@
+button {
+  padding: $button-padding;
+  background: $button-background;
+  font-size: $button-font-size;
+  border: $button-border;
+  border-radius: $button-border-radius;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active, button.disabled, button.pressed {
+  text-shadow: $button-text-shadow;
+  box-shadow: $button-box-shadow;
+}
+
+button:hover {
+  background: $button-hover-background;
+}

@@ -1,0 +1,22 @@
+.to-do-show-page {
+  .logged-in {
+    font-size: $logged-in-label-font-size;
+    display: block;
+    width: $logged-in-label-width;
+    margin: auto;
+    padding: $logged-in-label-padding;
+    font-weight: $light;
+  }
+
+  .to-do-show-item-wrapper {
+    border: $standard-border;
+    border-radius: $base-border-radius;
+    width: $to-do-index-wrapper-width;
+    min-height: $to-do-index-wrapper-min-height;
+    background: $to-do-index-wrapper-bg;
+    margin: $to-do-index-wrapper-margin;
+  }
+}
+
+@import './to_do_show_item';
+@import './timer_display';

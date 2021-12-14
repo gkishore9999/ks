@@ -1,0 +1,171 @@
+/* font weights */
+$light: 100;
+$regular: 400;
+$bold: 700;
+
+/* base background */
+$body-bg: #eee;
+
+/* base font */
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 16px;
+$base-line-height: 1.4;
+
+/* icons */
+$icon-width: 32px;
+$icon-height: 32px;
+$icon-border-radius: 10px;
+
+/* borders */
+$standard-border: 1px solid #ccc;
+$selected-border: 1px solid blue;
+$base-border-radius: 10px;
+
+/* buttons */
+$button-padding: 3px;
+$button-font-size: .8em;
+$button-border: 1px solid darkgrey;
+$button-border-radius: 10px;
+$button-background: lightblue;
+
+    /* buttons - active, disabled, or pressed */
+    $button-text-shadow: 1px 1px 2px black;
+    $button-box-shadow: inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
+
+    /* buttons - hover */
+    $button-hover-background: darken($button-background, 10%);
+
+/* headers */
+$h1-font-size: 36px;
+$h2-font-size: 24px;
+
+/* input boxes */
+$input-box-padding: 5px 2.5px;
+$input-box-border-radius: .6em;
+$failed-validation-input-border: 2px solid red;
+$failed-validation-box-shadow: 0 0 10px red;
+
+/* flash messages */
+$flash-top: 50vh;
+$flash-left: 30vw;
+$flash-font-size: 2em;
+$flash-border: $standard-border;
+$flash-border-radius: $base-border-radius;
+$flash-background-color: yellow;
+$flash-padding: 5px;
+$flash-z-index: 1;
+
+/* text area */
+$textarea-font-size: .8em;
+$textarea-padding: 10px;
+
+/* footer */
+$footer-height: 72px;
+$footer-font-size: 1em;
+$footer-font-color: #fff;
+$footer-width: 70vw;
+$footer-margin: auto;
+$footer-padding: 17px 0;
+$footer-bg: #ffab62;
+$about-me-opacity: .7;
+$about-me-margin-top: 5px;
+$icon-list-margin: 10px;
+
+/* login page */
+$login-form-item-margin: 5px 0;
+$login-form-width: 200px;
+$login-form-margins: 100px 0;
+$login-input-box-width: 100%;
+
+/* sign up page */
+$sign-up-form-item-margin: 5px 0;
+$sign-up-form-width: 200px;
+$sign-up-form-margins: 50px 0;
+$sign-up-input-box-width: 100%;
+
+/* user show page */
+/* to do show page */
+$logged-in-label-font-size: 1.2em;
+$logged-in-label-width: 80vw;
+$logged-in-label-padding: 3vh 0;
+$to-do-header-label-font-size: 2.5em;
+$to-do-header-label-margin-bottom: 7vh;
+$to-do-index-wrapper-bg: white;
+$to-do-index-wrapper-width: 80vw;
+$to-do-index-wrapper-min-height: 50vw;
+$to-do-index-wrapper-margin: auto;
+$to-do-index-wrapper-padding: 10vh 0;
+$toggle-to-do-form-padding: 5px;
+$toggle-to-do-form-font-size: 1.2em;
+
+    /* user show page - to do index */
+    /* to do show page - to do show item */
+    $to-do-index-width: 60vw;
+    $to-do-index-margin: 5vh 0;
+
+        /* user show page - to do index item */
+        $to-do-item-margin: 10px 0;
+        $to-do-item-spacing: 0 1vw;
+        $to-do-show-details-button-radius: 3px;
+        $to-do-title-font-size: 1.2em;
+        $to-do-item-details-spacing: 1vh 0;
+        $to-do-item-padding: 5px 0;
+        $to-do-item-buttons-wrapper-margin: 1vh 0;
+
+            /* user show page - to do index item details */
+            $to-do-details-width: 40vw;
+            $to-do-details-height: 20vh;
+
+    /* to do show page - to do show item */
+    $to-do-show-item-margin: 5vh auto;
+    $to-do-show-item-header: 2em;
+    $to-do-show-item-children-spacing: 1vh;
+    $to-do-show-item-desc-width: 30vw;
+    $to-do-show-item-desc-height: 30vh;
+
+    /* to do show page - stats wrapper */
+    $stats-wrapper-child-spacing: 0 2vw;
+
+/* to do form */
+$to-do-form-margin-top: 5vh;
+$title-input-width: 30vw;
+$description-textbox-height: 20vh;
+$description-textbox-width: 30vw;
+$to-do-form-spacing: 5px 0;
+$pomodoro-counter-button-border-radius: 0;
+$pomodoro-counter-img-dim: 2em;
+$pomodoro-counter-img-margin: 0 1vw;
+$to-do-options-wrapper-margin-top: 30px;
+
+    /* to do form - buttons */
+    $to-do-form-button-padding: 5px;
+    $to-do-form-button-font-size: 1em;
+    $to-do-form-button-spacing: 10px;
+
+/* navigation bar */
+$header-background: lightblue;
+$header-bottom-border: $standard-border;
+$nav-bar-width: 70vw;
+$logo-dimension: 75px;
+$search-label-font-size: 1.5em;
+
+    /* navigation bar - buttons */
+    $nav-bar-button-border-radius: 5px;
+    $nav-bar-button-background: #b20000;
+    $nav-bar-button-border: 1px solid darkgrey;
+    $nav-bar-button-color: white;
+
+    /* user search bar */
+    $to-do-search-input-margin: 0 1vw;
+    $to-do-search-input-width: 20vw;
+
+/* pomodoro index */
+
+    /* pomodoro index item */
+    $pomodoro-index-item-dim: 2em;
+
+/* timer display */
+
+    /* timer display - timer */
+    $timer-font-size: 4em;

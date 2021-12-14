@@ -1,0 +1,46 @@
+.user-show-page {
+  .logged-in {
+    font-size: $logged-in-label-font-size;
+    display: block;
+    width: $logged-in-label-width;
+    margin: auto;
+    padding: $logged-in-label-padding;
+    font-weight: $light;
+  }
+
+  .to-do-list-wrapper {
+    border: $standard-border;
+    border-radius: $base-border-radius;
+    width: $to-do-index-wrapper-width;
+    min-height: $to-do-index-wrapper-min-height;
+    background: $to-do-index-wrapper-bg;
+    margin: $to-do-index-wrapper-margin;
+    padding: $to-do-index-wrapper-padding;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .to-do-header-label {
+      margin-bottom: $to-do-header-label-margin-bottom;
+      font-size: $to-do-header-label-font-size;
+      font-weight: $bold;
+    }
+
+    .toggle-to-do-form {
+      padding: $toggle-to-do-form-padding;
+      font-size: $toggle-to-do-form-font-size;
+    }
+
+    .to-do-index {
+      width: $to-do-index-width;
+      margin: $to-do-index-margin;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@import './to_do_index_item';

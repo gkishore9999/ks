@@ -1,0 +1,52 @@
+.to-do-form {
+  display: none;
+  margin-top: $to-do-form-margin-top;
+
+  * {
+    margin: $to-do-form-spacing;
+  }
+
+  .title-input {
+    width: $title-input-width;
+  }
+
+  .description-textbox {
+    width: $description-textbox-width;
+    height: $description-textbox-height;
+    text-align: left;
+  }
+
+  .pomodoro-counter-wrapper {
+    button {
+      border-radius: $pomodoro-counter-button-border-radius;
+    }
+
+    img {
+      width: $pomodoro-counter-img-dim;
+      height: $pomodoro-counter-img-dim;
+      margin: $pomodoro-counter-img-margin;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .slider {
+    width: 60%;
+  }
+
+  .to-do-form-options {
+    margin-top: $to-do-options-wrapper-margin-top;
+  }
+
+  button {
+    padding: $to-do-form-button-padding;
+    font-size: $to-do-form-button-font-size;
+    margin: $to-do-item-spacing;
+  }
+}
+
+.to-do-form.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
